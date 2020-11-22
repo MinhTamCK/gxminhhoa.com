@@ -1,8 +1,15 @@
 import React from 'react'
-// import Image from 'next/image'
+import Head from 'next/head'
+
+const TITLE = 'Giáo xứ Minh Hòa';
 
 const Home = () => (
   <div>
+    <Head>
+      <title>{TITLE}</title>
+      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      <meta property="og:title" content={TITLE} key="title" />
+    </Head>
     <img
       src="/images/gx_minh_hoa.jpg"
       alt="gx minh hoa"
@@ -10,7 +17,7 @@ const Home = () => (
       height="auto"
       layout="responsive"/>
     <h1>
-      Giáo xứ Minh Hòa - Giáo hạt An Bình - Giáo phận Xuân Lộc
+      {TITLE} - Giáo hạt An Bình - Giáo phận Xuân Lộc
     </h1>
     <p>Địa chỉ: Ấp 1, xã Lộ 25, huyện Thống Nhất, tỉnh Đồng Nai</p>
     <p>Giờ lễ:</p>
