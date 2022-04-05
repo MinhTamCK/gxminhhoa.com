@@ -7,9 +7,6 @@
 
 To start your project, either:
 
-1. Deploy to Netlify using the button above, or
-2. Clone this repository and run:
-
 ```bash
 npm install
 ```
@@ -24,7 +21,7 @@ While developing your website, use:
 npm start
 ```
 
-Then visit http://localhost:3000/ to preview your new website. The Next.js development server will automatically reload the CSS or refresh the whole page, when stylesheets or content changes.
+Then visit http://localhost:3000/ to preview your website. The Next.js development server will automatically reload the CSS or refresh the whole page, when stylesheets or content changes.
 
 ### Static build
 
