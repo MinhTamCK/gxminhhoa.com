@@ -12,17 +12,17 @@ const Home = () => (
       <meta property="og:title" content={TITLE} key="title" />
       <script
         async
-        src="https://www.googletagmanager.com/gtag/js?id=G-5DW92Q9EXJ"
+        src="https://www.googletagmanager.com/gtag/js?id=UA-96090593-3"
       ></script>
       <Script
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{
           __html: `
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-        
-          gtag('config', 'G-5DW92Q9EXJ');
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-96090593-3');
           `,
         }}
       />
